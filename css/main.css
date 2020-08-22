@@ -1,0 +1,159 @@
+.card.card-color-blue{
+    background: #25c8db;
+    color: #ffffff;
+}
+.card-color-blue .card-title,.card-color-blue ul li{
+    color: #ffffff;
+}
+.card-color-blue .card-title{
+    font-size: 1.85rem;
+    font-weight: 500;
+}
+.card-top-wrapper{
+    padding:1rem 3rem;
+}
+
+.card-color-blue ul li a{
+color:  inherit;
+}
+
+.top-section-iframe{
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+.card-color-blue{
+    font-size: 1.05rem;
+}
+
+.forumpost--announcement .post-content-container,.forumpost--announcement address{
+    color:#919398;
+}
+.forum-post-container:not(:last-child) .forumpost{
+margin-right:10px;
+}
+.img-blog{
+    width: 100%;
+    height:150px;
+    background-color: #d9dadc;
+}
+.block-title,.forumpost--announcement .card-title{
+    color:#000000;
+    font-size:1.2rem;
+}
+.block-title{
+    margin-bottom: 1rem;
+}
+
+
+.footer{
+    background-color:#25c8db;
+}
+.footer__item{
+    margin-left:10px;
+    margin-right:10px;
+    color:#ffffff;
+    padding:4px 8px;
+}
+.footer__item a{
+    color:#ffffff;
+}
+.footer__item:last-child{
+    margin-right: 0;
+}
+.footer__item-highlighted{
+    border:1px solid #ffffff;
+} 
+.img-podcast-wrap{
+    background: url('https://triadbehavioralhealth.com/images/tbh/05192020/Podcast/bht_header_v2.jpg') no-repeat ;
+    width:100%;
+    height:350px;
+    background-size: cover;
+    display: block;
+}
+.img-podcast-wrap:hover {
+    text-decoration: none;
+}
+.media-title > * {
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    display: table;
+    padding:3px 10px;
+}
+
+.btn.btn-media{
+    background-color:#000 ;
+    color:#ffffff;
+    width:35px;
+    height:35px;
+    border-radius:5px;
+    padding:0;
+}
+.btn.btn-media:hover{
+    color:#ffffff;
+}
+.media-wrap{
+    position: relative;
+}
+.media-controls{
+    position: absolute;
+    bottom:0;
+    justify-content: space-evenly;
+}
+.btn-media-control{
+    border-radius: 50% !important;
+    border:2px solid #000000 !important;
+    width: 60px;
+    height: 60px;
+    color: #000000;
+}
+.btn-media-control > *{
+    color: #000000 !important;
+}
+.btn-media-control .icon{
+    font-size: 2rem;
+}
+.btn-playback{
+    border: 1px solid #f6f6f6;
+    line-height: 20px;
+    height: 25px;
+    border-radius: 3px !important;
+}
+.media-progress-bar{
+    height:5px;
+    background-color: #000000;
+}
+.media-progress-wrap{
+    flex:0 0 90%;
+    max-width: 90%;
+}
+@media (max-width:1199.98px){
+    .card-top-wrapper{
+        padding: 1rem;
+    }
+}
+@media(max-width:991.98px){
+    .card-top-wrapper{
+        padding: 0;
+    }
+}
+
+@media(max-width:767.98px){
+
+    .top-section-iframe{
+        margin-top: 1rem;
+    }
+
+    .block-announcements .card-container{
+        flex-direction: column;
+    }
+    .block-announcements .card-wrap{
+        flex-direction: column;
+        flex:unset;
+        max-width: unset;
+        margin:0;
+    }
+   
+}
